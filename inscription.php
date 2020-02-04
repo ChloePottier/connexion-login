@@ -68,7 +68,7 @@ if (!empty($_POST['nom']) AND !empty($_POST['prenom']) AND !empty($_POST['email'
     <title>Inscription</title>
 </head>
 <body>
-    <form method="POST" action="#" >
+    <form method="POST" action="#" style="margin-top: 20px;">
     <!-- NOM -->
         <label for="nom" >Votre nom</label>
         <input id="nom" name="nom" type="text" required/>
