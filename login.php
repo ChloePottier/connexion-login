@@ -31,10 +31,10 @@ if($res==true){
     session_start();
     $_SESSION['login'] = $user;
     $_SESSION['pwd'] = $pwd;
-    header("Location: http://localhost/php/connexion-login/home.php");
+    header("Location: home.php");
     exit();
 } else{
-    header("Location: http://localhost/php/connexion-login/index.php");
+    header("Location: index.php");
 }
 
 

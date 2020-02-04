@@ -9,5 +9,5 @@
     session_destroy ();
 
     // On redirige le visiteur vers la page d'accueil
-    header ('location: http://localhost/php/connexion-login/index.php');
+    header ('location: index.php');
     ?>

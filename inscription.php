@@ -47,7 +47,7 @@ if (!empty($_POST['nom']) AND !empty($_POST['prenom']) AND !empty($_POST['email'
                         $req = $dbh->prepare($sql2);
                         $req->execute($tab);
                         if($req == true){
-                            echo "Merci pour votre inscription"; 
+                            header("Location: index.php");
                         } else {
                             echo "inscription impossible";
                             }
